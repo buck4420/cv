@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <h3>Contact Information</h3>
+    <p><em>Phone Number:</em> 405.333.3333</p>
+    <p><em>Address:</em> A Street, Washington D.C.</p>
+    <p><em>myemail@google.com</em></p>
+    <hr>
+    <!--Below is the code to add a form-->
+    <form action="mailto:bnbuckley@mail.snu.edu" method="post" enctype="text/plain"> <!--in the action field, we removed "index.html" becuase when we hit the submit button, it takes us to the homepage which we dont want
+    "post" means that it will transfer what the user types into the input fields into the eamil client, also removed "class" that originally came after form-->
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label></br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+  </form>
+</body>
+</html>
+
+    <!--<input type="color" name="" value="#rrggbb"><br> Removed this-->
+    <!-- we deleted the checkbox so we could add a password
+   <label>Do you want to sign up for the email list</label>
+   <input type="checkbox" name="" value="">
+    -->
+   <!-- we deleted the checkbox so we could add a password
+   <label>Have you read the terms and conditions</label>
+   <input type="checkbox" name="" value="">
+    <input type="submit" name">-->
+  <!--<label>Password:</label>
+  <input type="password" name="password" value="">-->
+  <!--<input type="submit" name="" value=""><br>-->
+  <!--additional input types added for assignment, search input types on mdn
+  <input type="file"><br>
+  <input type="date"><br>
+  <input type="radio"><br>
+  <input type="range"><br>
+  <label>Choose a time for your meeting:</label><br>
+  <input type="time">-->
